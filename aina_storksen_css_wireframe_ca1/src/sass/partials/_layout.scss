@@ -1,0 +1,216 @@
+html,body,.App{
+    font-family:$font-family-base;
+    height: 100%;  
+    
+}
+
+
+h1,h2,h3{
+    color: $primary;
+}
+
+.yayHeading{
+    font-size: 34px;
+   
+}
+
+.yayHeading-small{
+    display: none;
+}
+
+
+body{ 
+    margin: 0;
+
+}
+
+//HOME PAGE
+
+
+.jumbotron{
+    width: 100%;
+    margin: 0 auto;
+    height: 462px;
+}
+
+    .yayContainer{
+    width: 89%;
+    height: auto;
+    margin: 3% auto;  
+}
+
+
+    //tab content
+    .tab-wrapper{
+        width: 89%;
+        margin: 5% auto;
+
+    }
+
+    .nav2{
+        display: flex;
+        list-style: none;
+        padding-left: 0 !important;
+        
+       .nav-item{
+           width: 100px;
+           border-radius: 10px 10px 0 0;
+           
+       } 
+    
+        li .nav-item{
+            width: 100px;
+            border: 1px solid $white;
+        }
+        li:hover{
+            background-color: $white;
+            border-radius: 10px 10px 0 0;
+        }
+    }   
+
+    .navbar-light .navbar-toggler{
+        border: none;
+        border-radius: 0 !important;
+        }  
+   
+    .navbar-toggler:focus{
+        border: none !important;
+        box-shadow: 0 !important;
+    
+    }
+
+    #home{
+        display: flex;
+    }
+
+    .tab-content{
+        background-color: $white !important; 
+        margin-top: -22px;
+        border-radius: 10px;   
+
+    }
+
+    #tab1,#tab2,#tab3 {
+        border: none;
+    }
+
+    .tab-text{
+        margin-top:5% !important;
+        width: 60%;
+    }
+
+    .tab1-img{
+        max-width: 238px;
+        max-height: 175px;
+        margin:  5% 2rem 7% 2rem;
+
+    }
+
+    //NEWS PAGE
+
+    .page-wrapper{
+        width: 90%;
+        margin: 0 auto;  
+    }
+
+    .newsHeading{
+        font-size: 34px;
+        margin-left: 12%;
+       
+    }
+
+    .card-wrapper{
+        display: flex;
+        width: 90%;
+        margin: 0 auto; 
+        justify-content: center;
+        
+    }
+
+    .card{
+        margin: 1%;
+        border-radius: $border-radius;
+    }
+
+    .card-title{
+        font-family:$font-family-base ;
+    }
+
+    .btn-primary{
+        width: 90%;
+        margin: 0 auto ;
+        color: $white !important;
+    }
+
+    //CONTACT PAGE
+  
+    .contactpage-wrapper{
+        display: flex;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    .submitHeading{
+        font-size: 34px;
+        margin-left: 20%;
+        margin-top:2%;
+    }
+   
+    .contact-form{
+        width: 100% !important;
+        margin: 2%;
+        padding: 1%;
+        border-radius: 10px;
+        background-image: $gradientBackground;
+        box-shadow: 0 0 6px rgba(0,0,0,.06);
+    }
+
+    .form-check-label{
+        margin: 1% 0  0 1% ;
+    }
+
+    .contact-info-small{ 
+        width: 50%;
+        margin: 2%;
+        margin: 0 auto;
+    }
+
+    .contact-info{
+        display: none;
+    }
+
+    .adress-Wrapper{
+        line-height: 0.1em;
+
+    }
+    .contact-mail{
+        margin-left: 35px;
+    }
+
+    .contact-phone{
+        margin-left: 35px;
+    }
+
+     .contact-adress{
+        margin-left: 35px;
+    }
+
+    .form-check-input{
+        width: 2em !important;
+        height: 2em !important;
+        background-color: $primary !important;
+    }
+
+    .btn-secondary{
+        width: 90%;
+        height: 58px;
+        color: $white !important;
+        background-color:$gray-800 !important;
+        border: none !important;
+        font-size: 22px !important;
+    }
+    svg{
+        margin-right:2% ;
+    }
+
+
