@@ -4,10 +4,20 @@ import React from "react";
 function Jumbotron() {
     return (
 <>
-
-<div className="jumbotron jumbotron-fluid" style={{backgroundImage: "url(images/carousel1.jpg)" }}>
-      
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/carousel1.jpg" class="d-block w-100" alt="..."></img>
+    </div>
+    <div class="carousel-item">
+      <img src="../images/carousel-2.jpg" class="d-block w-100" alt="..."></img>
+    </div>
+    <div class="carousel-item">
+      <img src="../images/carousel-3.jpg" class="d-block w-100" alt="..."></img>
+    </div>
+  </div>
 </div>
+
 <div className="page-wrapper">
     
 
@@ -37,8 +47,10 @@ function Jumbotron() {
                       <div className="tab-pane fade show active"  id="home" role="tabpanel" aria-labelledby="home-tab"  >
                           <img className="tab1-img" src="/images/tab1.jpg"></img>
                           <p className="tab-text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> </div>
-                      <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                      <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                      <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><img className="tab1-img" src="/images/tab2.jpg"></img>
+                          <p className="tab-text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p></div>
+                      <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><img className="tab1-img" src="/images/tab3.jpg"></img>
+                          <p className="tab-text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p></div>
                   </div> 
 
     </div>
