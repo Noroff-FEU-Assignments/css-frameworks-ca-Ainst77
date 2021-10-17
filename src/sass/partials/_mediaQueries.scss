@@ -1,0 +1,110 @@
+$breakpoint-tablet: 720px;
+@media (max-width: $breakpoint-tablet) {
+    #home{
+        flex-direction: column;
+    }
+
+    .page-wrapper{
+        flex-direction: column;
+    }
+
+    .yayHeading-small{
+        display:block;
+        font-size: 34px;
+    }
+    .yayHeading{
+        display: none;
+    }
+
+    .tab-content{
+        flex-direction: column;
+    }
+
+    .tab1-img{
+        margin: 2% auto;
+    }
+    .tab-text{
+        margin: 0 auto;
+    }
+    
+    .card-wrapper{
+        flex-direction: column;
+        
+    }
+
+
+
+    .card{
+        margin: 2% auto;
+
+    }
+
+    .submitHeading{
+        margin-left: 2%;
+       
+    }
+
+    .contact-form{
+        width: 100% !important;
+    }
+
+    .contactpage-wrapper{
+        flex-direction: column !important;
+        
+    }
+    .form-check-label{
+        width: 80%;
+        margin-left:3%;
+    }
+    .contact-info{
+        display: block;
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .contact-info-small{
+        display: none;
+    }
+
+    .contact-mail{
+        margin-left: 0px;
+    }
+
+    .contact-phone{
+        margin-left: 0px;
+    }
+
+     .contact-adress{
+        margin-left: 0px;
+    }
+
+    footer{
+        height: 165px;
+        
+    }
+
+    .footer-content-wrap{
+        flex-direction: column;
+
+    }
+    
+    .footer-text-wrap{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-icons-wrap{
+        width: 100%;
+        justify-content: center;
+        margin: 5%;
+        
+    }
+
+    a img .footer-icons{
+        margin-top: 10%;
+    }
+   
+    
+
+   
+}

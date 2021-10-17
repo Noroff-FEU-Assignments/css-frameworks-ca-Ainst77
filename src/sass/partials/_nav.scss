@@ -1,0 +1,39 @@
+nav{
+
+    background-color:$light;
+
+    .navbar-brand{
+        color:$primary !important;
+        font-style: italic;
+    }
+
+    .nav-item .nav-link {
+        color: $black !important;
+    } 
+
+    .nav-link:hover {
+        background-color: $white !important;
+        border-radius: 0.25rem;
+    }
+
+   form{ 
+        input{
+            border-radius: 0rem !important;
+        }
+        .me-2{
+        margin-right: 0 !important;
+        }
+
+        .btn{
+            color: $white;
+            background-color:$primary !important ;   
+            border-color:$primary !important;
+            border-radius: 0rem 0.25rem 0.25rem 0rem !important;
+            
+        }
+
+       
+
+    }
+
+}
